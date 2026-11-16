@@ -18,11 +18,11 @@ type timestamp
 using order_delivered_customer_date::timestamp;
 
 -- Check empty values in date columns
-slect
-count(*) filter (where order_purchase_timestamp = '') as empty_purchase_dates,
-count(*) filter (where order_approved_at = '') as empty_approved_dates,
-count(*) filter (where order_delivered_carrier_date = '') as empty_carrier_dates,
-count(*) filter (where order_estimated_delivery_date = '') as empty_estimated_dates
+select
+count(*) filter (where order_purchase_timestamp is null) as empty_purchase_dates,
+count(*) filter (where order_approved_at is null) as empty_approved_dates,
+count(*) filter (where order_delivered_carrier_date is null) as empty_carrier_dates,
+count(*) filter (where order_estimated_delivery_date is null) as empty_estimated_dates
 from orders;
 
 -- Replace empty strings wuth null

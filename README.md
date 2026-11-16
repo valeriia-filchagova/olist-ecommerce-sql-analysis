@@ -50,7 +50,6 @@ The goal is to identify business insights that can help improve customer retenti
 
 ```text
 olist-ecommerce-sql-analysis/
-│
 ├── 00_data_cleaning.sql
 ├── 01_data_exploration.sql
 ├── 02_sales_analysis.sql

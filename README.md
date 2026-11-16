@@ -67,3 +67,5 @@ The dataset contains information about orders, customers, products, payments, an
 The analysis focuses on sales performance, customer purchasing behavior, and geographic revenue distribution.
 
 Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+**Analysis Notes:** Revenue and average order value are calculated using product prices from delivered orders, excluding shipping costs. Customer repeat purchase rates are based on the orders recorded in the dataset.

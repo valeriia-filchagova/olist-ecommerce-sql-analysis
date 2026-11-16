@@ -52,7 +52,7 @@ limit 20;
 
 select count(*) as empty_delivery_dates
 from orders
-where order_delivered_customer_date = '';
+where order_delivered_customer_date is null;
 
 -- Order statuses for missing delivery dates
 select order_status,

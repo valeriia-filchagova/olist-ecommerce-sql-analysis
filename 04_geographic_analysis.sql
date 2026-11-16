@@ -70,7 +70,7 @@ limit 10;
 -- Average Order Value by State
 select 
 c.customer_state,
-round(sum(oi.price) / count (distinct o.order_id))::numeric as avg_order_value 
+round((sum(oi.price) / count (distinct o.order_id))::numeric, 2) as avg_order_value 
 from customers as c
 inner join orders as o
 on c.customer_id = o.customer_id 

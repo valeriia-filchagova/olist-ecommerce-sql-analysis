@@ -3,27 +3,27 @@
 -- =========================================
 
 -- Number of customers
-SELECT COUNT(*) AS number_of_customers
+select count(*) as number_of_customers
 FROM customers;
 
 -- Number of orders
-SELECT COUNT(*) AS number_of_orders
+select count(*) as number_of_orders
 FROM orders;
 
 -- Number of order items
-SELECT COUNT(*) AS number_of_order_items
+select count(*) as number_of_order_items
 FROM order_items;
 
 -- Number of products
-SELECT COUNT(*) AS number_of_products
+select count(*) as number_of_products
 FROM products;
 
 -- Number of payment records
-SELECT COUNT(*) AS number_of_payments
+select count(*) as number_of_payments
 FROM payments;
 
 -- Number of product categories
-SELECT COUNT(*) AS number_of_categories
+select count(*) as number_of_categories
 FROM category_translation;
 
 -- Order status distribution

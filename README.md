@@ -45,3 +45,26 @@ The goal is to identify business insights that can help improve customer retenti
 - States with the highest total revenue did not necessarily have the highest average order values.
 
 **Business Insight:** Revenue and average order value provide different perspectives on regional performance. Both metrics are useful when evaluating markets.
+
+## Project Structure
+
+```text
+olist-ecommerce-sql-analysis/
+│
+├── 00_data_cleaning.sql
+├── 01_data_exploration.sql
+├── 02_sales_analysis.sql
+├── 03_customer_analysis.sql
+├── 04_geographic_analysis.sql
+└── README.md
+```
+
+## Dataset
+
+**Source:** Brazilian E-Commerce Public Dataset by Olist (Kaggle).
+
+The dataset contains information about orders, customers, products, payments, and deliveries from a Brazilian e-commerce marketplace.
+
+The analysis focuses on sales performance, customer purchasing behavior, and geographic revenue distribution.
+
+Dataset: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
